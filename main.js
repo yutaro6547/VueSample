@@ -4,6 +4,14 @@ var app = new Vue({
     message: {
       value: 'Hello Vue.js!'
     },
+    classObject: {
+      child: true,
+      'is-active': false
+    },
+    styleObject: {
+      color: 'red',
+      backgroundColor: 'lightpink'
+    },
     list: ['りんご', 'バナナ', 'いちご'],
     count: 0,
     isChild: true,
