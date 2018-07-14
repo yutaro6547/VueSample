@@ -26,6 +26,9 @@
     <input type="range" min="0" max="100" v-model="radius">
     <p v-bind:class="classObject">Text</p>
     <p v-bind:style="styleObject">Text</p>
+    <button v-on:click="ok=!ok">描画の切替</button>
+    <div v-if="ok">v-if条件による描画</div>
+    <div v-show="ok">v-show条件による描画</div>
   </div>
   <script
     src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>

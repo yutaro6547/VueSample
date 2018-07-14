@@ -18,7 +18,8 @@ var app = new Vue({
     isActive: true,
     textColor: 'red',
     bgColor: 'lightgray',
-    radius: 50
+    radius: 50,
+    ok: false
   },
   methods: {
     increment: function() {
