@@ -5,7 +5,12 @@ var app = new Vue({
       value: 'Hello Vue.js!'
     },
     list: ['りんご', 'バナナ', 'いちご'],
-    count: 0
+    count: 0,
+    isChild: true,
+    isActive: true,
+    textColor: 'red',
+    bgColor: 'lightgray',
+    radius: 50
   },
   methods: {
     increment: function() {
